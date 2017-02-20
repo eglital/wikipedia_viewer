@@ -1,0 +1,79 @@
+body {
+  background: #a3a3c2;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(#a3a3c2, #d1d1e0);
+  /*   Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(#a3a3c2, #d1d1e0);
+  /* W3C, IE   10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #FFF;
+  font-family: 'Bitter', serif;
+  position: relative;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 42px;
+}
+#searchfield {
+  display: block;
+  margin: 20px auto 0 auto;
+  line-height: 25px;
+  border-radius: 3px;
+  color: #29293d;
+}
+.page-header {
+  text-align: center;
+}
+
+.ui-autocomplete {
+  background-color: white;
+  width: 250px;
+  border: 1px solid #ebebe0;
+  border-radius: 3px;
+  list-style: none;
+  padding-left: 5px;
+}
+.ui-autocomplete li {
+  border: 1px solid #ebebe0;
+  border-collapse: collapse;
+  padding: 7px;
+  color: #47476b;
+}
+.ui-state-focus  {
+  background-color: #ebebe0;
+  box-shadow: 2px 3px #ebebe0;
+  cursor: pointer;
+}
+
+.article {
+  list-style: none;
+}
+.article li {
+  box-shadow: 3px 3px 3px #5c5c8a;
+  background-color: #7575a3;
+  border-radius: 4px;
+  color: #efeff5;
+  padding: 5px 10px 10px 10px;
+  margin-bottom: 10px;
+}
+.article li:last-child {
+  margin-bottom: 40px;
+}
+
+ .article a {
+  color: #28283e;
+}
+.article a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+.ui-helper-hidden-accessible {
+  display:none
+}
+footer {
+  bottom: 2px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  color: black;
+}
